@@ -1,3 +1,21 @@
+
+/**
+ * The Customer class represents an entity in the online bookstore system, mapped to the "customers" table in the database.
+ * This class contains customer information such as name, surname, address details, contact information, and email.
+ * 
+ * Key Features:
+ * - Annotated with JPA annotations to map to the "customers" table in the database.
+ * - Includes fields like id, name, surname, countryRegion, streetAndHouseNumber, city, postalCode, phoneNumber, and email.
+ * - Each field is validated using constraints to ensure proper input (e.g., @NotBlank, @Size, @Email).
+ * - Provides constructors, getter and setter methods for each field.
+ * - The class is integrated with the persistence layer using @Entity and @Table annotations.
+ * 
+ * This class is essential for managing customer data in the bookstore application, ensuring valid data storage and retrieval.
+ */
+
+
+
+
 package com.crni99.bookstore.model;
 
 import javax.persistence.Column;
